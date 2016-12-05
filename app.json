@@ -4,12 +4,12 @@
   "env": {
     "MONGO_COLLECTION": {
       "description": "REQUIRED: The mongo collection used for CGM data. Default value is 'entries'. Most users should use the default.",
-      "value": "entries",
+      "value": "mongodb://backye:olijoolukmo9@ds115798.mlab.com:15798/fanqienightscout",
       "required": true
     },
     "API_SECRET": {
       "description": "REQUIRED: A secret passphrase that must be at least 12 characters long, required to enable POST and PUT; also required for the Care Portal",
-      "value": "",
+      "value": "jBtIj3et984VVFO8",
       "required": true
     },
     "DISPLAY_UNITS": {
